@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Person : NSObject
+//链式编程
+-(Person *)eat;
+
+-(Person *)drink;
 
 @end

@@ -10,6 +10,8 @@
 
 #import <Masonry.h>
 
+#import "Person.h"
+
 @interface ViewController ()
 
 @end
@@ -20,9 +22,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [self createMas];
+//    [self createMas];
+    //链式编程
+    [self createProgrammingChain];
 }
 
+#pragma mark - 函数式编程思想&&链式编程思想在Masonry框架中的体现 -
 -(void)createMas{
     
     UIView * view = [[UIView alloc]init];
@@ -50,6 +55,14 @@
         make.centerY.equalTo(self.view);
         make.size.mas_offset(CGSizeMake(100, 100));
     }];
+}
+
+#pragma mark - 链式编程 -
+-(void)createProgrammingChain{
+    
+    Person * person = [[Person alloc]init];
+    //这里的eat方法和drink方法每次执行完都会返回Person自身,所以能够一直执行下去
+    person.eat.drink.eat.drink;
 }
 
 @end

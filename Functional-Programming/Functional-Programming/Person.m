@@ -9,5 +9,19 @@
 #import "Person.h"
 
 @implementation Person
+#pragma mark - 链式编程 -
+-(Person *)eat{
+    
+    NSLog(@"吃");
+    
+    return self;
+}
+
+-(Person *)drink{
+    
+    NSLog(@"喝");
+    
+    return self;
+}
 
 @end
