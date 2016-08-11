@@ -13,6 +13,7 @@
 		06BBB5221D5C5FB90057B87B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BBB5201D5C5FB90057B87B /* Main.storyboard */; };
 		06BBB5241D5C5FB90057B87B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BBB5231D5C5FB90057B87B /* Assets.xcassets */; };
 		06BBB5271D5C5FB90057B87B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BBB5251D5C5FB90057B87B /* LaunchScreen.storyboard */; };
+		06BBB5301D5C680C0057B87B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BBB52F1D5C680C0057B87B /* Person.m */; };
 		0F2E75DD96B32FE8E1AD2C83 /* libPods-Functional-Programming.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BDE45FC9F0EEE55C05CEA /* libPods-Functional-Programming.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		06BBB5231D5C5FB90057B87B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06BBB5261D5C5FB90057B87B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06BBB5281D5C5FB90057B87B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06BBB52E1D5C680C0057B87B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		06BBB52F1D5C680C0057B87B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		480BDE45FC9F0EEE55C05CEA /* libPods-Functional-Programming.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Functional-Programming.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFE2785E27EA5280586491C /* Pods-Functional-Programming.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Functional-Programming.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Functional-Programming/Pods-Functional-Programming.debug.xcconfig"; sourceTree = "<group>"; };
 		ADEBBB5FA86008AC6BD8DF88 /* Pods-Functional-Programming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Functional-Programming.release.xcconfig"; path = "Pods/Target Support Files/Pods-Functional-Programming/Pods-Functional-Programming.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				06BBB51B1D5C5FB90057B87B /* AppDelegate.m */,
 				06BBB51D1D5C5FB90057B87B /* ViewController.h */,
 				06BBB51E1D5C5FB90057B87B /* ViewController.m */,
+				06BBB52E1D5C680C0057B87B /* Person.h */,
+				06BBB52F1D5C680C0057B87B /* Person.m */,
 				06BBB5201D5C5FB90057B87B /* Main.storyboard */,
 				06BBB5231D5C5FB90057B87B /* Assets.xcassets */,
 				06BBB5251D5C5FB90057B87B /* LaunchScreen.storyboard */,
@@ -227,6 +232,7 @@
 			files = (
 				06BBB51F1D5C5FB90057B87B /* ViewController.m in Sources */,
 				06BBB51C1D5C5FB90057B87B /* AppDelegate.m in Sources */,
+				06BBB5301D5C680C0057B87B /* Person.m in Sources */,
 				06BBB5191D5C5FB90057B87B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

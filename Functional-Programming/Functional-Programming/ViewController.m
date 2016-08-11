@@ -42,6 +42,8 @@
  
  函数式编程思想就像equalTo()一样,OC中我们一般使用方括号表示执行方法,()一般表示执行block,所以我们这里一般指的是执行一个block,且传入的参数是self.view
  
+ 写法上的实现主要体现在返回值是一个block
+ 
  */
     [view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.view);
