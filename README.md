@@ -1,7 +1,7 @@
 # Functional-Programming
 关于函数式编程&amp;链式编程的个人见解
 
-[简书的地址][http://www.jianshu.com/p/b2840fb9317e]
+[简书的地址](http://www.jianshu.com/p/b2840fb9317e)
 
 If you have some questions, please tell me.
 
