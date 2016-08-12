@@ -24,4 +24,52 @@
     return self;
 }
 
+#pragma mark - 函数式编程 -
+-(Person *(^)())eat1{
+    
+    Person * (^block)()=^{
+        
+        NSLog(@"吃1");
+        
+        return self;
+    };
+    
+    return block;
+}
+//简便式写法
+-(Person *(^)())drink1{
+    
+    return ^(){
+        
+        NSLog(@"喝1");
+        
+        return self;
+    };
+}
+
+#pragma mark - 带有参数的函数式编程 -
+-(Person *(^)(NSString *))eat2{
+    
+    Person * (^block)(NSString * food) = ^(NSString * food){
+        
+        NSLog(@"吃%@",food);
+      
+        return self;
+    };
+    
+    return block;
+}
+
+//简便写法
+-(Person *(^)(NSString *))drink2{
+    
+    return ^(NSString * drinkSth){
+        
+        NSLog(@"喝%@",drinkSth);
+        
+        return self;
+    };
+
+}
+
 @end

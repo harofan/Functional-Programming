@@ -24,7 +24,13 @@
     
 //    [self createMas];
     //链式编程
-    [self createProgrammingChain];
+//    [self createProgrammingChain];
+    
+    //函数式编程
+//    [self createFunctionalProgramming];
+    
+    //带有参数的函数式编程
+    [self createFunctionalProgrammingWithParameter];
 }
 
 #pragma mark - 函数式编程思想&&链式编程思想在Masonry框架中的体现 -
@@ -65,4 +71,19 @@
     person.eat.drink.eat.drink;
 }
 
+#pragma mark - 函数式编程 -
+-(void)createFunctionalProgramming{
+    
+    Person * person = [[Person alloc]init];
+    //这里不会有()的自动补全,需要开发者自己加上
+    person.eat1().drink1();
+}
+
+#pragma mark - 带参数的函数式编程 -
+-(void)createFunctionalProgrammingWithParameter{
+    
+    Person * person = [[Person alloc]init];
+    
+    person.eat2(@"包子").drink2(@"水");
+}
 @end

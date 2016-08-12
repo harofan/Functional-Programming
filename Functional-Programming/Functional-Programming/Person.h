@@ -14,4 +14,14 @@
 
 -(Person *)drink;
 
+//函数式编程
+-(Person * (^)())eat1;
+
+-(Person * (^)())drink1;
+
+//带有参数的函数式编程
+-(Person * (^)(NSString * food))eat2;
+
+-(Person * (^)(NSString * forDrinkingSth))drink2;
+
 @end
